@@ -141,9 +141,9 @@ main h5{
 .grid3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 50px;
+    grid-gap: 64px;
     text-align: left;
-    margin: 40px;
+    
 }
 
 .cards {
@@ -228,7 +228,7 @@ footer a{
     header h3{
         font-size: 14px;
     }
-.grid, .grid2 {
+.grid, .grid2, .grid3 {
     grid-template-columns: 1fr;
     grid-gap: 32px;
 }
